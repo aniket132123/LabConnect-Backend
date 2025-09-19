@@ -17,7 +17,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sentry_sdk.integrations.flask import FlaskIntegration
 
 from labconnect.helpers import OrJSONProvider
-
+#
 # Create Database object
 db = SQLAlchemy()
 migrate = Migrate()
